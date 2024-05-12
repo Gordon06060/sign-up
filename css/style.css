@@ -3,5 +3,10 @@
     src: url(../Norse-Bold.otf);
 }
 
+form{
+    
+}
 
-
+.sign-up{
+    display:flex;
+}
