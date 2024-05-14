@@ -3,10 +3,81 @@
     src: url(../Norse-Bold.otf);
 }
 
-form{
+
+input{
+    font-family: inherit;
+    font-size: 100px;
+    position: relative;
+    bottom: 12px;
+    border-radius: 20px;
     
+}
+label{
+    font-size: 50px;
 }
 
 .sign-up{
     display:flex;
+    position: relative;
+    right: 40px;
+    gap: 200px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+input:focus{
+    outline: none;
+    border: 2px solid blue;
+    box-shadow: 2px black;
+}
+
+input[type='password']:invalid{
+    border: 2px solid red;
+}
+
+button{
+    box-sizing: border-box;
+    width: 500px;
+    height: 110px;
+    border-radius: 50px;
+    background-color: #596D48;
+    color: white;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.container{
+    display: flex;
+}
+
+img{
+    height: 100vh;
+    width: 50%;
+    position: relative;
+    right: 100px;
+
+}
+
+.entire-right{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+.text{
+    font-size: 100px;
+}
+
+#formtitle{
+    font-size: 100px;
+}
+
+#odin{
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
