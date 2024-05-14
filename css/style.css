@@ -55,9 +55,8 @@ button{
 
 img{
     height: 100vh;
-    width: 50%;
     position: relative;
-    right: 100px;
+    right: 50px;
 
 }
 
@@ -80,4 +79,32 @@ img{
     position: absolute;
     top: 0px;
     left: 0px;
+}
+
+.img-container{
+    position: relative;
+}
+
+.odin-bar{
+    position: absolute;
+    top: 700px;
+    left: 0px;
+    width: 1800px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+#odin-image{
+    height: 400px;
+    width: auto;
+}
+
+.odin-name{
+    position: relative;
+    top: 30px;
+    font-family: logo-font;
+    font-size: 300px;
+    color: white;
 }
